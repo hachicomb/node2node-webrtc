@@ -28,21 +28,21 @@ node install
 ```
 
 - Open two Terminals in the single device.
-- Excute `node offer.js` in Terminal 1.
-- Excute `node answer.js` in Terminal 2.
-- It recommend that `node offer.js` be excuted before excuting `node answer.js`.
+- Excute `node offerer.js` in Terminal 1.
+- Excute `node answerer.js` in Terminal 2.
+- It recommend that `node offerer.js` be excuted before excuting `node answerer.js`.
 - Otherwise you need to delete `*.txt` files in `./data/` folder before launch.
 
 ## Terminal 1
 
 ```bash
-node offer.js
+node offerer.js
 ```
 
 
 ## Terminal 2
 ```bash
-node answer.js
+node answerer.js
 ```
 
 # Flow
