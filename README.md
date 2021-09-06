@@ -24,7 +24,7 @@ apt install -y nodejs
 - Following is example.
 
 ```bash
-node install
+npm install
 ```
 
 - Open two Terminals in the single device.
