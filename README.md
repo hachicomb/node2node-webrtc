@@ -10,7 +10,7 @@
 
 ```bash
 apt install -y nodejs
-apt install -y nodejs
+apt install -y npm
 ```
 
 # Environment confirmed operation
