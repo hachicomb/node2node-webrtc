@@ -1,0 +1,20 @@
+{
+  "name": "node2node-webrtc",
+  "version": "0.1.0",
+  "description": "The example of communication between nodejs and nodejs using node-webrtc.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "Web",
+    "WebRTC"
+  ],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "dateformat": "^4.5.1",
+    "mkdirp": "^1.0.4",
+    "wrtc": "^0.4.3"
+  }
+}

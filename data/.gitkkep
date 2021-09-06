@@ -1,0 +1,21 @@
+{
+  "name": "node-webrtc-examples",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "Web",
+    "Audio"
+  ],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "dateformat": "^4.5.1",
+    "mkdirp": "^1.0.4",
+    "node-uuid": "^1.4.8",
+    "wrtc": "^0.4.3"
+  }
+}
