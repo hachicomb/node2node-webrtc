@@ -1,3 +1,4 @@
 data/offer.txt
 data/answer.txt
 node_modules
+devutils/tmp/*.txt
