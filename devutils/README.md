@@ -1,6 +1,6 @@
 # Readme
 
-- If you use this tools, you must configure the file `~/.ssh/config/`.
+- If you use this tools, you must configure the file `~/.ssh/config`.
 - Following is a example.
 
 ```
