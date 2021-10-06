@@ -43,7 +43,7 @@ const TIMEOUT = 100000;
     const answer = await Promise.race([waiter(TIMEOUT), sdpFile.waitAnswer()]);
     
     if (answer != 0) {
-        rtcPeerConnection.setRemoteDescription(answer[0]);
+        rtcPeerConnection.setRemoteDescription(answer[answer.length - 1]);
     } else {
         await sdpFile.unWaitAnswer();
         rtcPeerConnection.close();
