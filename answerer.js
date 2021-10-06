@@ -18,7 +18,7 @@ const dataChannelEventListener = new DataChannelEventListenerForAnswer(rtcPeerCo
     
     const offer = await sdpFileForAnswer.waitOffer();
 
-    await rtcPeerConnection.setRemoteDescription(offer[0]);
+    await rtcPeerConnection.setRemoteDescription(offer[offer.length - 1]);
 
     const candidates =  [];
     const waitAllCandidates = 
