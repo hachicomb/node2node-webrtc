@@ -31,7 +31,7 @@ const sdpFile = new SDPFileForOffer();
     
     const answer = await sdpFile.waitAnswer();
     
-    rtcPeerConnection.setRemoteDescription(answer[0]);
+    rtcPeerConnection.setRemoteDescription(answer[answer.length - 1]);
 })();
 
 /*
